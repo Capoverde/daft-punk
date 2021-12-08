@@ -1,0 +1,38 @@
+.aside__left{
+    height: 100vh;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+    .socials__list{
+        display: flex;
+        transform:rotate(-90deg);
+
+        &-item{
+            margin-left: 40px;
+            text-transform: uppercase;
+            
+            &-link{
+                font-size: .8rem;
+                letter-spacing: 2px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.aside__right{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+    span{
+        display: block;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-family: "Poppins", sans-serif;
+        color:darken($main-c, 70);
+    }
+}

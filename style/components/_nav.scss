@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    .navbar__left-list,
+    .navbar__right-list{
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.5rem;
+        position: relative;
+        font-weight: bolder;
+
+        #line{
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: $main-c;
+            margin: 10px;
+        }
+    }
+
+
+
+    .navbar__left-list,
+    .navbar__right-list,
+    .logo{
+        flex-basis: 33.333%;
+        // border: 1px solid red;
+    }
+}
