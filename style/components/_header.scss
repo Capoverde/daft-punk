@@ -13,6 +13,7 @@
         font-size: 24em;
         z-index:-1;
         width: 100%;
+        overflow: hidden;
         
         @include respond-below(lg){
             font-size: 17em;

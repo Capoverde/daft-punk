@@ -9,14 +9,15 @@
         margin: 0 auto;
         height: 100%;
         display: flex;
-        gap: 20px;
-        justify-content: space-between;
+        gap: 25px;
+        justify-content: center;
     
         article{
-            flex-basis: 30%;
+            flex-basis: 45%;
 
             .text{
                 text-align: justify;
+                opacity:.6;
             }
         }
     }

@@ -18,7 +18,17 @@
         top:15%;
         transform: translate(-50%,-50%);
         animation: scrollDot 1.5s infinite;
-        
+    }
+
+    &::after{
+        content:'';
+        background: $main-c;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        position: absolute;
+        bottom:-50%;
+        left:35%;
     }
 }
 
