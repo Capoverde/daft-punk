@@ -10,45 +10,9 @@ body{
     padding: 0;
 }
 
-.header-img{
-    position:absolute;
-    left:50%;
-    top:60%;
-    transform: translate(-50%,-50%);
-    width:50%;
-}
-
-.img-layer{
-    width: 1000px;
-    height: 200px;
-    position:absolute;
-    left:50%;
-    top:84%;
-    transform: translate(-50%,-50%);
-    background: transparent;
-    background: linear-gradient(180deg, transparent 70%, rgba(1,1,1,1) 90%, rgba(4,4,4,1) 100%);
-}
-
 .col{
     position: relative;
 }
-
-h1{
-    position:absolute;
-    left:60%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    font-family: "Anton";
-    text-transform: uppercase;
-    font-size: 24em;
-    z-index:-1;
-    width: 100%;
-    
-    @include respond-below(lg){
-        font-size: 17em;
-    }
-}
-
 
 a,
 p,
