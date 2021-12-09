@@ -4,7 +4,7 @@ const sec = document.querySelectorAll('.sec');
 
 
 sec.forEach(section => {
-    gsap.fromTo(sec.children, 
+    gsap.fromTo(section.children, 
         {
            y: '+=100',
            opacity: 0, 
