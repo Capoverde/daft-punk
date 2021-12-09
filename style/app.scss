@@ -1,7 +1,9 @@
+/* ABSTRACTS */
+@import './abstracts/vars';
+@import './abstracts/mixins/rwdMixins';
+
 /* BASE */
-@import './base/vars';
 @import './base/reset';
-@import './base/mixins';
 @import './base/globals';
 
 /* GRID */
