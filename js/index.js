@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const sec = document.querySelectorAll('.sec');
+const sec = document.querySelectorAll('.sec > .container');
 const masterImg = document.querySelector('.master-img');
 const h1 = document.querySelector('h1')
 
